@@ -446,6 +446,32 @@ QAbstractButton:flat[style=&quot;helper&quot;]
      <string>open</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="fail_4">
+    <property name="geometry">
+     <rect>
+      <x>83</x>
+      <y>8</y>
+      <width>38</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../concretetheme.git/concrete.qrc">
+      <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="Animation" name="container_5">
    <property name="geometry">
@@ -697,7 +723,7 @@ QAbstractButton:flat[style=&quot;helper&quot;]
    <widget class="QPushButton" name="dopen_2">
     <property name="geometry">
      <rect>
-      <x>43</x>
+      <x>41</x>
       <y>70</y>
       <width>32</width>
       <height>32</height>
@@ -1354,6 +1380,84 @@ font-size: 8pt;</string>
     <string>sys</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="fail_3">
+   <property name="geometry">
+    <rect>
+     <x>1206</x>
+     <y>336</y>
+     <width>38</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fail_2">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>331</y>
+     <width>38</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fail_1">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>330</y>
+     <width>38</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../concretetheme.git/concrete.qrc">
+     <normaloff>:/concrete/attention.png</normaloff>:/concrete/attention.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
   <zorder>animation_2</zorder>
   <zorder>above_1</zorder>
   <zorder>rain_2</zorder>
@@ -1402,6 +1506,9 @@ font-size: 8pt;</string>
   <zorder>tconveyorpanel</zorder>
   <zorder>scantime</zorder>
   <zorder>powered</zorder>
+  <zorder>fail_3</zorder>
+  <zorder>fail_2</zorder>
+  <zorder>fail_1</zorder>
  </widget>
  <customwidgets>
   <customwidget>

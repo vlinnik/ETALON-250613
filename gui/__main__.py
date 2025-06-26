@@ -7,7 +7,7 @@ import pygui.navbar as navbar
 def main():
     import argparse
     args = argparse.ArgumentParser(sys.argv)
-    args.add_argument('--device', action='store', type=str, default='127.0.0.1', help='IP address of the device')
+    args.add_argument('--device', action='store', type=str, default='192.168.4.1', help='IP address of the device')
     args.add_argument('--simulator', action='store_true', default=False, help='Same as --device 127.0.0.1')
     ns = args.parse_known_args()[0]
     if ns.simulator:
